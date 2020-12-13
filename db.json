@@ -1,0 +1,140 @@
+{
+  "Flights": [
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 6,
+      "to": "Graz"
+    },
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 7,
+      "to": "Berlin"
+    },
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 8,
+      "to": "Berlin"
+    },
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 9,
+      "to": "München"
+    },
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 10,
+      "to": "München"
+    },
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 11,
+      "to": "München"
+    },
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 12,
+      "to": "Zürich"
+    },
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 13,
+      "to": "Zürich"
+    },
+    {
+      "date": "10-01-2021",
+      "from": "Wien",
+      "id": 14,
+      "to": "Zürich"
+    },
+    {
+      "date": "11-01-2021",
+      "from": "Wien",
+      "id": 15,
+      "to": "Bern"
+    },
+    {
+      "date": "11-01-2021",
+      "from": "Wien",
+      "id": 17,
+      "to": "Bern"
+    },
+    {
+      "date": "11-01-2021",
+      "from": "Wien",
+      "id": 18,
+      "to": "Frankfurt"
+    },
+    {
+      "date": "11-01-2021",
+      "from": "Wien",
+      "id": 20,
+      "to": "Frankfurt"
+    },
+    {
+      "date": "11-01-2021",
+      "from": "Wien",
+      "id": 21,
+      "to": "Salzburg"
+    },
+    {
+      "date": "11-01-2021",
+      "from": "Wien",
+      "id": 22,
+      "to": "Salzburg"
+    },
+    {
+      "id": 23,
+      "from": "sdfsdf",
+      "to": "sdfsdf",
+      "date": "22-20-3333"
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "username": "ChihebSayah",
+      "password": "chiheb12345",
+      "firstName": "Chiheb",
+      "lastName": "Sayah",
+      "email": "chiheb.sayah1@esprit.tn",
+      "cin": 11111111
+    },
+    {
+      "id": 2,
+      "username": "fdgfdgdfg",
+      "password": "dfgdfgdfg",
+      "firstName": "dfgdfgdfg",
+      "lastName": "fdgdfgfdg",
+      "email": "dfgdfg@fdgfdg.ff",
+      "cin": 12345678
+    },
+    {
+      "id": 3,
+      "username": "gfhfhgfh",
+      "password": "fghfghfghfgh",
+      "firstName": "gfhfghfgh",
+      "lastName": "fghfghfh",
+      "email": "gfhgfh@fgh.fgh",
+      "phoneNumber": 55555555,
+      "cin": 12345678
+    },
+    {
+      "id": 4,
+      "username": "sdfssdfsdf",
+      "password": "sdfsfsdf",
+      "firstName": "sdfsdf",
+      "lastName": "dsfsfdsf",
+      "email": "sdfsdfsdf@dsfsdf.sdf",
+      "phoneNumber": 55555555,
+      "cin": 12345678
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+
+<div class="card">
+  <div class="text-center mt-3">
+    <h2 class="title">Flight List</h2>
+  </div>
+  <div class="content">
+    <form #f="ngForm">
+      
+      <div class="form-group">
+        <label for="from">From:</label>
+        <input [(ngModel)]="filter.from" id="from" name="from" class="form-control">
+      </div>
+      
+      <div class="form-group">
+        <label for="to">To:</label>
+        <input [(ngModel)]="filter.to" id="to" name="to" class="form-control">
+      </div>
+      
+      <div class="text-center">
+        <button  class="btn btn-primary mb-3" (click)="search()">Search</button>
+        <button  class="btn btn-secondary mb-3 ml-3" (click)="cancel()">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<h4>If you want to add a new flight click on this button :</h4>
+<button class="btn btn-info mx-5" (click)="showAddForm()">Add Form</button>
+
+<div class="alert alert-danger mt-3"  *ngIf="alertVariable==2">Error on deleting flight.</div>
+<div class="alert alert-success" *ngIf="alertVariable==1">Flight Deleted</div>
+<h4 class="mt-3">Lists Of Flights :</h4>
+<div class="row ml-5 mt-3">
+  <app-flight *ngFor="let i of flightsList" [item]="i" (sendIsDeleted)="showAlert($event)"></app-flight>
+</div>
